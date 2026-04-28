@@ -36,7 +36,25 @@ html {
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-primary {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 22px 24px 20px 25px;
+    background-color: #FF900E;
+}
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 130px;
+}
 
 /* nav related styles */
 .navbar {
@@ -68,3 +86,95 @@ html {
 }
 
 /* banner realated styles */
+
+.banner-contant {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+/* team and feature related styles */
+
+.teams {
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    gap: 24px;
+    border-radius: 8px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.our-featurs {
+    max-width: 540px;
+    margin-left: 130px;
+}
+
+.featurs-title {
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+#quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.spn-features {
+    color: #FF900E;
+}
+
+.features-description {
+    font-size: 1rem;
+    color: #727272;
+    line-height: 26px;
+}
+
+/* responsive media quary */
+
+/* smaller size device */
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .nav-links,
+    .teams {
+        flex-direction: column;
+    }
+
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-featurs {
+        margin-left: 20px;
+    }
+
+}
+
+/* medium size device  */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .teams {
+        flex-direction: column;
+    }
+
+    .our-featurs {
+        margin: 20px auto;
+    }
+}
