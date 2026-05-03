@@ -148,6 +148,30 @@ main>section {
     line-height: 26px;
 }
 
+
+/* some fact related styles */
+
+.fact-description {
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+}
+
+.fact-card {
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid sienna;
+}
+
 /* responsive media quary */
 
 /* smaller size device */
@@ -159,8 +183,14 @@ main>section {
         flex-direction: column;
     }
 
-    .team-img-container {
+    .team-img-container,
+    .fact-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fact-container {
+        justify-content: center;
+        gap: 24px;
     }
 
     .our-featurs {
