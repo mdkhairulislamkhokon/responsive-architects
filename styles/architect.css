@@ -237,6 +237,25 @@ main>section {
     filter: grayscale(100%);
 }
 
+
+/* footer related styles */
+
+footer {
+    max-width: 1440px;
+    padding: 38px;
+    margin: 130px auto;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+}
+
+footer,
+span {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #424242;
+}
+
 /* responsive media quary */
 
 /* smaller size device */
