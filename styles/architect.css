@@ -1,9 +1,4 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
+/* google font */
 .work-sans-font {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -149,9 +144,33 @@ main>section {
 }
 
 /* feature related styles */
+.feature {
+    gap: 140px;
+}
+
 #feature-section-title {
     border-left: 5px solid #FF900E;
     padding: 21px;
+}
+
+.feature-card {
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+.feature-titel {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.feature-description {
+    line-height: 26px;
 }
 
 /* some fact related styles */
