@@ -295,6 +295,11 @@ span {
         margin-left: 2px;
     }
 
+    footer,
+    span {
+        line-height: 28px;
+    }
+
 }
 
 /* medium size device  */
@@ -321,5 +326,10 @@ span {
         margin-top: 5px;
         margin-bottom: 20px;
         margin-left: 5px;
+    }
+
+    footer,
+    span {
+        line-height: 28px;
     }
 }
