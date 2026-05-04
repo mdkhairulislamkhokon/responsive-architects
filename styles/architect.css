@@ -173,6 +173,24 @@ main>section {
     line-height: 26px;
 }
 
+#experience-badge {
+    font-size: 1.56rem;
+    font-weight: 500;
+    margin-left: -90px;
+    margin-top: -150px;
+    padding: 46px 42px 45px 42px;
+}
+
+#experience {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.feature-architect img {
+    width: 100%;
+}
+
 /* some fact related styles */
 
 .fact-description {
@@ -226,7 +244,8 @@ main>section {
 
     .navbar,
     .nav-links,
-    .teams {
+    .teams,
+    .feature {
         flex-direction: column;
     }
 
@@ -251,12 +270,20 @@ main>section {
         text-align: center;
     }
 
+    #experience-badge {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 2px;
+    }
+
 }
 
 /* medium size device  */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams {
+
+    .teams,
+    .feature {
         flex-direction: column;
     }
 
@@ -269,5 +296,11 @@ main>section {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+
+    #experience-badge {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 5px;
     }
 }
