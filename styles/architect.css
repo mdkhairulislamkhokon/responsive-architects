@@ -249,7 +249,7 @@ footer {
 }
 
 footer,
-span {
+.footer-title {
     font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
@@ -295,8 +295,7 @@ span {
         margin-left: 2px;
     }
 
-    footer,
-    span {
+    .footer-title {
         line-height: 28px;
     }
 
@@ -328,8 +327,7 @@ span {
         margin-left: 5px;
     }
 
-    footer,
-    span {
+    .footer-title {
         line-height: 28px;
     }
 }
